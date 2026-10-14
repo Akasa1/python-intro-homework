@@ -1,2 +1,4 @@
-# this is a warmup file to test if python is working
-print("Python is working")
+
+# Command: python warmup1.py
+# Output: Python is working!
+print("Python is working!")
