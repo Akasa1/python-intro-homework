@@ -1,20 +1,20 @@
-# this is the score file 
-#take input from the user on the score 
-Score = 88 
 
-#make a decision based on the score and print the grade 
-if Score >= 90:
-    print(f"Score: {Score}")
+# this is a hard coded score variable
+score = 88 
+
+
+if score >= 90:
+    print(f"Score: {score}")
     print("Grade: A")
-elif Score >= 80:
-    print(f"Score: {Score}")
+elif score >= 80:
+    print(f"Score: {score}")
     print("Grade: B")
-elif Score >= 70:
-    print(f"Score: {Score}")    
+elif score >= 70:
+    print(f"Score: {score}")    
     print("Grade: C")
-elif Score >= 60:
-    print(f"Score: {Score}")
+elif score >= 60:
+    print(f"Score: {score}")
     print("Grade: D")
 else:
-    print(f"Score: {Score}")
+    print(f"Score: {score}")
     print("Grade: F")

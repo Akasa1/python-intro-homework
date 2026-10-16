@@ -1,7 +1,7 @@
 # Python reads this as:
-print (not True and False) #False  Not True is False, False and False is False
+print (not True and False) #False  Not True becomes False, then False and False is False
 
-print(True or False and False) #True  False and False is False, True or False is true
+print(True or False and False) #True  False and False happens first and becomes False,then, True or False is true
  
 print(not (5 > 3)) #False (5 > 3) is True, True and Not is  false
  
