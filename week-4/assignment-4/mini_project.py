@@ -14,7 +14,7 @@ max_score = 0
 max_score_name = ""
 total = 0
 
-# 1 & 2. Find top scorer and accumulate total score inside the loop
+# Find top scorer and accumulate total score inside the loop
 for score in students:
     if score["score"] > max_score:
         max_score = score["score"]
@@ -32,7 +32,7 @@ new_subject = set()
 for subjects in students:
     new_subject.add(subjects["subject"])
     
-print(f"Subjects offered: {{ {', '.join(f"'{sub}'" for sub in new_subject)} }}")
+print(f"Subjects offered: {new_subject}")
 
 # 4. Find all students with high score 
 high_scorers = []
