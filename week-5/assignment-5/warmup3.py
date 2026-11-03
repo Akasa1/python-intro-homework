@@ -5,7 +5,6 @@ found_index = -1
 for i in range(len(fav_names)):
    if fav_names[i] == search_name:
        found_index = i
-       print(f"Found '{search_name}' at index {found_index}. ")
        break
 if found_index != -1:
            print(f"Found {search_name} at index {found_index}.")
