@@ -1,7 +1,7 @@
 numbers = [42, 17, 83, 5, 61, 29, 74, 8, 55, 93, 31, 66, 14, 47, 78, 3, 59, 22, 86, 40]
 
 #finding the minimum number 
-def find_mini(numbers):
+def find_min(numbers):
     if not numbers:
         return None
     
@@ -58,12 +58,11 @@ def show_menu():
 
 # Main while loop that calls show_menu() and dispatches to the correct function.
 def main():
-    
     while True:
         choice = show_menu()
         
         if choice == '1':
-            minimum = find_mini(numbers)
+            minimum = find_min(numbers)
             print(f"The minimum value is: {minimum}")
             
         elif choice == '2':
