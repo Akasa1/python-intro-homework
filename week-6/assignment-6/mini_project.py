@@ -1,7 +1,7 @@
 numbers = [42, 17, 83, 5, 61, 29, 74, 8, 55, 93, 31, 66, 14, 47, 78, 3, 59, 22, 86, 40]
 
 #finding the minimum number 
-def find_minimum(numbers):
+def find_mini(numbers):
     if not numbers:
         return None
     
@@ -12,7 +12,7 @@ def find_minimum(numbers):
     return current_min      
 
 #finding the maximum number
-def find_maximum(numbers):
+def find_max(numbers):
     if not numbers:
         return None
     
@@ -63,11 +63,11 @@ def main():
         choice = show_menu()
         
         if choice == '1':
-            minimum = find_minimum(numbers)
+            minimum = find_mini(numbers)
             print(f"The minimum value is: {minimum}")
             
         elif choice == '2':
-            maximum = find_maximum(numbers)
+            maximum = find_max(numbers)
             print(f"The maximum value is: {maximum}")
             
         elif choice == '3':
