@@ -1,3 +1,3 @@
-"Food Expense Report generated on November 16, 2026."
-"food expense: November 16, 2026: ${food_total:.2f}"
-Total Food = ${food_total:.2f}
+"Food Expense Report generated on November 17, 2026."
+"One line per food expense: November 17, 2026: $185.65"
+Total Food = $185.65
